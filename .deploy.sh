@@ -17,5 +17,5 @@ git config user.email "jordanel@live.unc.edu"
 git add .
 git commit -m ":shipit: Deploy to GitHub Pages"
 
-# Force push to gh-pages
+# Force push to gh-pages 
 git push --force "https://${GH_TOKEN}@github.com/tteltrab/testing-demo.git" master:gh-pages > /dev/null 2>&1
